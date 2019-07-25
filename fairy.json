@@ -404,63 +404,63 @@
             "criDmg":100,
             "grow":100}}
 ],"mastery":[
-    {"id":"1", "name":"殺傷型I", "target":"ally", "effect":{
+    {"id":"1", "name":"Damage I", "target":"ally", "effect":{
         "dmg":{"val":12}},
-        "detailText":{"val":"該場戰鬥中提升我方全體傷害12%"}},
-    {"id":"2", "name":"殺傷型II", "target":"ally", "effect":{
+        "detailText":{"val":"Increase all allies' damage by 12%"}},
+    {"id":"2", "name":"Damage II", "target":"ally", "effect":{
         "dmg":{"val":15}},
-        "detailText":{"val":"該場戰鬥中提升我方全體傷害15%"}},
-    {"id":"3", "name":"精準型I", "target":"ally", "effect":{
+        "detailText":{"val":"Increase all allies' damage by 15%"}},
+    {"id":"3", "name":"Accuracy I", "target":"ally", "effect":{
         "hit":{"val":20}},
-        "detailText":{"val":"該場戰鬥中提升我方全體命中20%"}},
-    {"id":"4", "name":"精準型II", "target":"ally", "effect":{
+        "detailText":{"val":"Increase all allies' accuracy by 20%"}},
+    {"id":"4", "name":"Accuracy II", "target":"ally", "effect":{
         "hit":{"val":25}},
-        "detailText":{"val":"該場戰鬥中提升我方全體命中25%"}},
-    {"id":"5", "name":"迴避型I", "target":"ally", "effect":{
+        "detailText":{"val":"Increase all allies' accuracy by 25%"}},
+    {"id":"5", "name":"Evasion I", "target":"ally", "effect":{
         "dodge":{"val":15}},
-        "detailText":{"val":"該場戰鬥中提升我方全體閃避15%"}},
-    {"id":"6", "name":"迴避型II", "target":"ally", "effect":{
+        "detailText":{"val":"Increase all allies' evasion by 15%"}},
+    {"id":"6", "name":"Evasion II", "target":"ally", "effect":{
         "dodge":{"val":20}},
-        "detailText":{"val":"該場戰鬥中提升我方全體閃避20%"}},
-    {"id":"7", "name":"護甲型I", "target":"ally", "effect":{
+        "detailText":{"val":"Increase all allies' evasion by 20%"}},
+    {"id":"7", "name":"Armor I", "target":"ally", "effect":{
         "armor":{"val":8}},
-        "detailText":{"val":"該場戰鬥中提升我方全體護甲8%"}},
-    {"id":"8", "name":"護甲型II", "target":"ally", "effect":{
+        "detailText":{"val":"Increase all allies' armor by 8%"}},
+    {"id":"8", "name":"Armor II", "target":"ally", "effect":{
         "armor":{"val":10}},
-        "detailText":{"val":"該場戰鬥中提升我方全體護甲10%"}},
-    {"id":"9", "name":"必殺型I", "target":"ally", "effect":{
+        "detailText":{"val":"Increase all allies' armor by 10%"}},
+    {"id":"9", "name":"Critical I", "target":"ally", "effect":{
         "criRate":{"val":40}},
-        "detailText":{"val":"該場戰鬥中提升我方全體暴擊率40%"}},
-    {"id":"10", "name":"必殺型II", "target":"ally", "effect":{
+        "detailText":{"val":"Increase all allies' critical rate by 40%"}},
+    {"id":"10", "name":"Critical II", "target":"ally", "effect":{
         "criRate":{"val":50}},
-        "detailText":{"val":"該場戰鬥中提升我方全體暴擊率50%"}},
-    {"id":"11", "name":"衝鋒型", "target":"smg", "effect":{
+        "detailText":{"val":"Increase all allies' critical rate by 50%"}},
+    {"id":"11", "name":"Charge", "target":"smg", "effect":{
         "dmg":{"val":8},
         "dodge":{"val":12}},
-        "detailText":{"val":"該場戰鬥中提升我方衝鋒槍8%傷害和12%迴避"}},
-    {"id":"12", "name":"突擊型", "target":"ar", "effect":{
+        "detailText":{"val":"Increase all ally SMGs' damage by 8% and evasion by 12%"}},
+    {"id":"12", "name":"Assault", "target":"ar", "effect":{
         "dmg":{"val":10},
         "fireOfRate":{"val":8}},
-        "detailText":{"val":"該場戰鬥中提升我方突擊步槍10%傷害和8%射速"}},
-    {"id":"13", "name":"瞄準型", "target":"rf", "effect":{
+        "detailText":{"val":"Increase all ally ARs' damage by 10% and RoF by 8%"}},
+    {"id":"13", "name":"Aim", "target":"rf", "effect":{
         "dmg":{"val":8},
         "fireOfRate":{"val":10}},
-        "detailText":{"val":"該場戰鬥中提升我方步槍8%傷害和10%射速"}},
-    {"id":"14", "name":"堅韌型", "target":"sg", "effect":{
+        "detailText":{"val":"Increase all ally RFs' damage by 8% and RoF by 10%"}},
+    {"id":"14", "name":"Sturdy", "target":"sg", "effect":{
         "armor":{"val":8},
         "criRate":{"val":20}},
-        "detailText":{"val":"該場戰鬥中提升我方霰彈槍8%護甲和20%暴擊率"}},
-    {"id":"15", "name":"鎮壓型", "target":"mg", "effect":{
+        "detailText":{"val":"Increase all ally SGs' armor by 8% and critical rate by 20%"}},
+    {"id":"15", "name":"Suppression", "target":"mg", "effect":{
         "dmg":{"val":10},
         "hit":{"val":15}},
-        "detailText":{"val":"該場戰鬥中提升我方機槍10%傷害和15%命中"}},
-    {"id":"16", "name":"敏銳型", "target":"hg", "effect":{
+        "detailText":{"val":"Increase all ally MGs' damage by 10% and Accuracy by 15%"}},
+    {"id":"16", "name":"Keen", "target":"hg", "effect":{
         "dodge":{"val":10},
         "criRate":{"val":30}},
-        "detailText":{"val":"該場戰鬥中提升我方手槍10%迴避和30%暴擊率"}},
-    {"id":"17", "name":"激昂型", "target":"ally", "effect":{
+        "detailText":{"val":"Increase all ally HGs' evasion by 10% and critical rate by 30%"}},
+    {"id":"17", "name":"Fervor", "target":"ally", "effect":{
         "dmg":{"val":10, "stackMax":3, "initStack":1, "stackUpWhenEveryTime":8}},
-        "detailText":{"val":"該場戰鬥中提升我方全體傷害每8秒提升10%，最多疊加3層"}}
+        "detailText":{"val":"Increases the current echelon's damage by 10% every 8s. Max 3 Stacks."}}
 ],"initRatio":{
     "dmg":7,
     "hit":25,
